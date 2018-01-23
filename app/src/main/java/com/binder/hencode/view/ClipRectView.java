@@ -27,6 +27,7 @@ public class ClipRectView extends View {
 
     public ClipRectView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        //初始化paint
         paint =new Paint();
     }
 
